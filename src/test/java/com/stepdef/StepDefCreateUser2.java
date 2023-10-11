@@ -27,7 +27,7 @@ public class StepDefCreateUser2 extends Wrapper{
         //Payload payload = Payload.valueOf(payloadType);
         ObjectMapper objectMapper = new ObjectMapper();
         Create create = new Create();
-        create.setName("Mayur");
+        create.setName("Amol");
         create.setJob("IT");
         String reqString = objectMapper.writeValueAsString(create);
         request = RestAssured.given().header(prop.getProperty("contentTypeKey"), prop.getProperty("contentTypeValue"))

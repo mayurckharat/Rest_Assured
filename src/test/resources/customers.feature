@@ -28,7 +28,7 @@ Scenario Outline: Create New User
 
 	Examples:
 	|payloadType|statusCode|name	|
-	|createUser |201	   |Mayur|
+	|createUser |201	   |Amol|
 	
 @regression
 Scenario Outline: Update User
